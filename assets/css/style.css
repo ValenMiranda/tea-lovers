@@ -34,21 +34,45 @@ Código Hexadecimal gris footer: #3B3B3B
 	background-color: #8EC641;
 }
 
-/* Newsletter*/
+/*Newsletter*/ 
 .newsletter{
-	text-align: center;
+	text-align: center; 
 	padding: 50px;
+	color: white;
 }
 
-.newsletter button{
+.el-h{
 	color: white;
-	background-color: #8EC641;
-	padding: 20px;
-	border: 5px solid white;
+	font-size: 3em; 	
+}
+
+.newsletter button{ 
+	color: white; 
+	background-color: #8EC641; 
+	padding: 20px; 
+	border: 5px solid white; 
 	border-radius: 5px; /* curvar las esquinas*/
-	font-size: 1.5em;
-	font-weight: bolder;
-	cursor:pointer; /* el cursor será un pointer de link al pasar por encima del botón*/
+	font-size: 1.5em; 
+	font-weight: bolder; 
+	cursor: pointer; /* el cursor será un pointer de link al pasar por encima del botón*/
+	text-transform: uppercase;	
+	border-radius: 0.4em 0.4em;	
+}
+
+#nombre, #email, #address{
+	border-radius: 0.6em 0.6em;	
+	font-size: 12pt;	
+	width: 450px;
+	padding: 5px;
+}
+
+select{
+	width: 200px;
+}
+
+.label{
+	padding: 5px 0 5px 0;	
+	font-size: 1.1em; 
 }
 
 /* Sección about*/
